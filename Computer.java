@@ -1,4 +1,6 @@
 public class Computer {
+
+    // inheritance 1 - For a parent class add 3 properties, 2 methods, and a constructor.
     String product;
     int gigabyte;
     int battery;
@@ -10,10 +12,10 @@ public class Computer {
     }
 
     public void information () {
-        System.out.println("Device: " + product + "GB: " + gigabyte + "Battery: " + battery);
+        System.out.println("Device: " + product + ", " + "GB: " + gigabyte + ", " + "Battery: " + battery);
     }
     public void wasBought() {
-        System.out.println("this " + this.product + " was bought today");
+        System.out.println("This " + this.product + " was bought today");
     }
 
 }
